@@ -4,7 +4,12 @@ resolver = "2"
 
 [workspace.package]
 version = "0.1.0"
+authors = ["Sean C. Roach <me@seancroach.dev>"]
 edition = "2021"
+repository = "https://github.com/seancroach/aligned_buffer"
+license = "MIT OR Apache-2.0"
+keywords = ["align", "buffer", "memory", "macro", "no_std"]
+categories = ["data-structures", "no-std::no-alloc"]
 
 ################################################################################
 # Workspace Lints

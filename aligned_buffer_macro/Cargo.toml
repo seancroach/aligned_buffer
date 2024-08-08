@@ -1,7 +1,14 @@
 [package]
 name = "aligned_buffer_macro"
 version.workspace = true
+authors.workspace = true
 edition.workspace = true
+description = "The `aligned_buffer` attribute macro."
+readme = "README.md"
+repository.workspace = true
+license.workspace = true
+keywords.workspace = true
+categories.workspace = true
 
 [lints]
 workspace = true
