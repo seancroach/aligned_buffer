@@ -4,7 +4,6 @@ version.workspace = true
 authors.workspace = true
 edition.workspace = true
 description = "A crate for creating aligned buffers in Rust."
-readme = "src/README.md"
 repository.workspace = true
 license.workspace = true
 keywords.workspace = true
@@ -12,6 +11,10 @@ categories.workspace = true
 
 [lints]
 workspace = true
+
+################################################################################
+# Dependencies
+################################################################################
 
 [dependencies.aligned_buffer_internals]
 workspace = true

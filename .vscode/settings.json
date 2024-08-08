@@ -1,0 +1,7 @@
+{
+  "material-icon-theme.folders.associations": {
+    "aligned_buffer": "lib",
+    "aligned_buffer_internals": "core",
+    "aligned_buffer_macro": "helper",
+  }
+}
