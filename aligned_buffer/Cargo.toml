@@ -1,0 +1,13 @@
+[package]
+name = "aligned_buffer"
+version.workspace = true
+edition.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies.aligned_buffer_internals]
+workspace = true
+
+[dependencies.aligned_buffer_macro]
+workspace = true

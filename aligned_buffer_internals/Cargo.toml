@@ -1,0 +1,7 @@
+[package]
+name = "aligned_buffer_internals"
+version.workspace = true
+edition.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,28 @@
+[package]
+name = "aligned_buffer_macro"
+version.workspace = true
+edition.workspace = true
+
+[lints]
+workspace = true
+
+[lib]
+proc-macro = true
+
+################################################################################
+# Dependencies
+################################################################################
+
+[dependencies.proc-macro2]
+version = "1.0.24"
+
+[dependencies.quote]
+version = "1.0.36"
+
+[dependencies.syn]
+version = "2.0.72"
+default-features = false
+features = ["full", "parsing", "printing", "proc-macro"]
+
+[dependencies.aligned_buffer_internals]
+workspace = true
