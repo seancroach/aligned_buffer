@@ -1,1 +1,1 @@
-aligned_buffer_macro/src/README.md
+./aligned_buffer_macro/src/README.md
