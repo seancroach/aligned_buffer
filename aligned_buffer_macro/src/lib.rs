@@ -1,4 +1,4 @@
-//! TODO
+#![doc = include_str!("README.md")]
 
 use proc_macro::TokenStream;
 use proc_macro2::TokenStream as TokenStream2;
